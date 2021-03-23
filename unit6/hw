@@ -1,1 +1,14 @@
-hw
+### A straight way to see how many steps we need to count in a function:
+
+
+1 + n * ( 1 + n * (1+1+1)) + 1
+^    ^    ^   ^    ^ ^ ^     ^the return operation
+|    |    |   |    | | |for the append operation
+|    |    |   |    | |for the x*y
+|    |    |   |    |for the assignment of y
+|    |    |   |for y in L(=n times)
+|    |    |for the assignment of x 
+|    |for x in L (=n times)
+|multiples = []
+
+2 + n^2 + 3n^2
