@@ -1,4 +1,4 @@
-###A straight way to see how many steps we need to count in a function:
+#A straight way to see how many steps we need to count in a function:
 
 
 1 + n * ( 1 + n * (1+1+1)) + 1
